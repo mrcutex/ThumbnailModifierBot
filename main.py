@@ -9,7 +9,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import re
 
 # Replace this with your Telegram Bot Token from BotFather
-TELEGRAM_BOT_TOKEN = "TELEGRAM_BOT_TOKEN"
+TELEGRAM_BOT_TOKEN = "8029082455:AAEqsOjQZSva_BNma203adsFhxkPBnUZvvs"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
